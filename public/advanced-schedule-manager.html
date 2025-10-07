@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Schedule Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>📊 Advanced Weekly Schedule Manager</h1>
+  <a href="index.html">🏠 Back to Home</a> | 
+  <a href="schedule-crud.html">✏️ CRUD View</a>
+
+  <!-- Board view -->
+  <div id="scheduleBoard" class="board"></div>
+
+  <!-- Extra Controls -->
+  <div class="controls">
+    <button onclick="seedData()">🌱 Seed Sample Data</button>
+    <button class="danger" onclick="cleanupData()">🗑 Clear All</button>
+  </div>
+
+  <!-- Shared script -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Schedule (Form Version)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Weekly Schedule Form</h1>
+  <a href="/">🏠 Home</a>
+
+  <p>Fill out your name and your weekly schedule, then submit. This uses a traditional form that posts to the backend.</p>
+
+  <!-- Traditional form: sends data using POST -->
+  <form method="POST" action="/api/schedules/form">
+    <label>
+      Name:
+      <input type="text" name="name" required>
+    </label>
+    <br><br>
+
+    <label>Monday: <input type="text" name="monday" placeholder="Plans for Monday"></label><br>
+    <label>Tuesday: <input type="text" name="tuesday" placeholder="Plans for Tuesday"></label><br>
+    <label>Wednesday: <input type="text" name="wednesday" placeholder="Plans for Wednesday"></label><br>
+    <label>Thursday: <input type="text" name="thursday" placeholder="Plans for Thursday"></label><br>
+    <label>Friday: <input type="text" name="friday" placeholder="Plans for Friday"></label><br>
+    <label>Saturday: <input type="text" name="saturday" placeholder="Plans for Saturday"></label><br>
+    <label>Sunday: <input type="text" name="sunday" placeholder="Plans for Sunday"></label><br><br>
+
+    <button type="submit">Save Schedule</button>
+  </form>
+
+  <!-- Success/Error Messages -->
+  <p style="color: green;">
+    <script>
+      if (window.location.search.includes("success=1")) document.write("✅ Schedule saved successfully!");
+      if (window.location.search.includes("error=1")) document.write("❌ Error saving schedule.");
+    </script>
+  </p>
+</body>
+</html>
