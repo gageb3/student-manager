@@ -136,10 +136,10 @@ When submitting your **Pull Request (P/R)** to the class repository:
 * **Tags:** `Node.js`, `MongoDB`, `CRUD`, `Full-Stack`, `Render`, `Student Project`
 
 * **Comment:**
-  “Includes complete app documentation, security setup, and full end-to-end CRUD demonstration. Do not merge—submitted for grading.”
+  “Includes complete app documentation, security setup, and full end-to-end CRUD demonstration."
 
 ---
 
 ## 🏁 Attribution
 
-Developed by **Gage Bays** for educational purposes — Web Programming (Full Stack) Course.
+Developed by **Gage Bays** for educational purposes, Web Programming (Full Stack) Course.
