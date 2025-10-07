@@ -64,7 +64,7 @@ All secrets are stored securely in `.env` and excluded via `.gitignore`.
 1. Clone the repo
 
    ```bash
-   git clone <your-repo-url>
+   git clone student-manager
    cd student-manager
    ```
 
